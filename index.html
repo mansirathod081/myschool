@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Dolat Anant Valiya New High School - Admissions</title>
+  <style>
+    /* General Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f8ff;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(90deg, #004080, #0066cc);
+      color: white;
+      text-align: center;
+      padding: 30px 15px;
+    }
+    header h1 {
+      font-size: 2rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+
+    /* Navbar */
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #0066cc;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      padding: 12px 18px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      background: #004080;
+      border-radius: 5px;
+    }
+
+    /* Sections */
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    /* Admission Form */
+    form {
+      display: grid;
+      gap: 15px;
+    }
+    input, select, textarea, button {
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+    button {
+      background: #0066cc;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #004080;
+    }
+
+    /* Footer */
+    footer {
+      background: #004080;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+      nav {
+        flex-direction: column;
+      }
+      nav a {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1> Dolat Anant Valiya New High School</h1>
+    <p>Empowering Students for a Brighter Future</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#admissions">Admissions</a>
+    <a href="#facilities">Facilities</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="card">
+      <h2>About Us</h2>
+      <p>Dolat Anant Valiya New High School is committed to academic excellence, innovation, and holistic development. 
+      We aim to provide quality education that nurtures curiosity and creativity.</p>
+    </div>
+  </section>
+
+  <!-- Admissions Section -->
+  <section id="admissions">
+    <div class="card">
+      <h2>Student Admission Form</h2>
+      <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="number" placeholder="Age" required>
+        <select required>
+          <option value="">Select Class</option>
+          <option>Nursery</option>
+          <option>KG</option>
+          <option>Class 1</option>
+          <option>Class 2</option>
+          <option>Class 3</option>
+          <option>Class 4</option>
+          <option>Class 5</option>
+          <option>Class 6</option>
+          <option>Class 7</option>
+          <option>Class 8</option>
+          <option>Class 9</option>
+          <option>Class 10</option>
+          <option>Class 11</option>
+          <option>Class 12</option>
+        </select>
+        <input type="email" placeholder="Parent's Email" required>
+        <input type="tel" placeholder="Parent's Phone Number" required>
+        <textarea placeholder="Address" rows="3" required></textarea>
+        <button type="submit">Submit Application</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Facilities Section -->
+  <section id="facilities">
+    <div class="card">
+      <h2>Our Facilities</h2>
+      <ul>
+        <li>Smart Classrooms</li>
+        <li>Modern Science & Computer Labs</li>
+        <li>Library with 10,000+ Books</li>
+        <li>Sports & Co-curricular Activities</li>
+        <li>Transport Facility Available</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="card">
+      <h2>Contact Us</h2>
+      <p>Email: info@davnhs.com</p>
+      <p>Phone: +91 9999999999</p>
+      <p>Address: Shastrinagar, Bhavnagar.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Dolat Anant Valiya New High School. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
